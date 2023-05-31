@@ -10,8 +10,8 @@ class Entrada:
     def __init__(self) -> None:
         self.values = sys.argv
         self.nome_trabalho = self.values.pop(0) # Recebendo o nome do trabalho
-        self.tamanho_vetor = self.values.pop(0) # Recebendo o nome do trabalho        
         self.nome_algoritmo = self.values.pop(0) # Recebendo o nome do algoritmo
+        self.tamanho_vetor = self.values.pop(0) # Recebendo o nome do trabalho        
         self.printar = False
 
         try:
